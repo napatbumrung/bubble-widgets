@@ -1,0 +1,27 @@
+.bw-hero {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  max-width: 600px;
+}
+
+.bw-hero h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.bw-hero p {
+  margin: 0 0 12px;
+  color: #555;
+}
+
+.bw-hero button {
+  padding: 10px 16px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

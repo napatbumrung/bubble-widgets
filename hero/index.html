@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Widget Test</title>
+  <link rel="stylesheet" href="./widget.css" />
+</head>
+<body style="padding:40px; background:#f5f5f5;">
+  <h2>Widget Test</h2>
+
+  <div
+    class="bw-hero-mount"
+    data-title="Hello Bubble"
+    data-subtitle="Loaded CSS/JS correctly!"
+    data-button="Click me"
+  ></div>
+
+  <script src="./widget.js"></script>
+  <script>
+    window.BWWidgets.hero.mountAll();
+  </script>
+</body>
+</html>
